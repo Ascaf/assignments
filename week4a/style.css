@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  main{
+    width: 50%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    height: 60%
+  }
+  
+  
+  .sedans{
+    padding: 10px;
+    width: 80%;
+    background-color: #8a5f0f;
+    color: white;
+  }
+  .sedans p{
+    padding-bottom: 38px;
+  }
+  .suvs{
+    
+    padding: 10px;
+    width: 80%;
+    background-color: darkcyan;
+    color: white;
+  }
+  .suvs p{
+    padding-bottom: 38px;
+  }
+  
+  .luxury{
+    padding: 10px;
+    width: 80%;
+    background-color: #013737;
+    color: white;
+  }
+  .luxury p{
+    padding-bottom: 20px;
+  }
+  a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding-top: 50%;
+    padding: 10%;
+    border-radius: 5px;
+    color:white
+  }
