@@ -1,0 +1,48 @@
+*{
+    font-family: 'Poppins' sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    display: block;
+    justify-content: left;
+    font-weight: bold;
+}
+
+.cover{
+    width: 60%;
+    height: 80%;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 9px;
+
+}
+form{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    height: 100%;
+}
+.register{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.form-group{
+    margin-top:30px;
+margin-bottom: 10px;
+
+}
+.form-group .gender{
+margin-left: 10px;
+}
+
+
+.form-group label{
+    margin-bottom: 6px;
+}
+
+.input-body input{ width: 60%;
+    
+}

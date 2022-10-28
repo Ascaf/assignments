@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  *{
+    font-family: 'Poppins',  Sans serif;
+  }
+  body{
+    align-items: center;
+    justify-content: center;
+    display:flex ;
+    min-height: 100%;
+    background: skyblue;
+    padding: 0 12px;
+    
+  }
+  .container{
+    max-width: 500px;
+    width: 100%;
+    position:relative;
+    
+    
+  }
+  form{
+    width: 80%;
+    padding: 28px;
+    background: white;
+    border-radius: 15px;
+  }
+  .title{
+    font-size: 30px;
+    margin-bottom: 20px ;
+    font-weight: 600;
+  }
+  .form-body{
+    margin-bottom: 14px;
+  }
+  .form-body label{
+    display:inline-block;
+    margin-bottom: 6px;
+  }
+  .input-group{
+    width: 80%;
+    position:relative;
+  }
+  .input-group input{
+    width: 90%;
+    position:relative;
+    outline: none;
+    padding: 12px 40px 12px 20px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+  }
+  .input-group i{
+    position:absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0px;
+    color: darkgray;
+    pointer-events:none
+  }
+  .form-body .help-text{
+    color: darkgray;
+  }
